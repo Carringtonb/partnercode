@@ -1,4 +1,4 @@
-'use strict'; 
+'use strict';
 
 var childhood = prompt('Did I grow up in Seattle?');
 if(childhood.toLowerCase() === 'yes'){
@@ -6,7 +6,7 @@ if(childhood.toLowerCase() === 'yes'){
 }else{
   alert('you are correct');
 }
-console.log(childhood);
+//console.log(childhood);
 
 var job = prompt('Have I worked in tech before?');
 if(job.toUpperCase() === 'YES'){
@@ -14,7 +14,7 @@ if(job.toUpperCase() === 'YES'){
 }else{
   alert('You are correct');
 }
-console.log(job);
+//console.log(job);
 
 var age = prompt('Am I 26 years of age?');
 if(age.toLowerCase() === 'yes'){
@@ -22,7 +22,7 @@ if(age.toLowerCase() === 'yes'){
 }else{
   alert('You are incorrect');
 }
-console.log(age);
+//console.log(age);
 
 var school = prompt('Did I attend College?');
 if(school.toLowerCase() === 'yes'){
@@ -30,7 +30,7 @@ if(school.toLowerCase() === 'yes'){
 }else{
   alert('You are incorrect');
 }
-console.log(school);
+//console.log(school);
 
 var employer = prompt('Is my ideal employer Lockheed?');
 if(employer.toUpperCase() === 'YES'){
@@ -38,4 +38,4 @@ if(employer.toUpperCase() === 'YES'){
 }else{
   alert('You are incorrect');
 }
-console.log(employer);
+//console.log(employer);

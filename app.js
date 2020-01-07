@@ -11,6 +11,6 @@ var city = prompt('Is Seattle the capitol of Washington?');
     if(city.toUpperCase() === 'YES'){
         alert('You are incorrect');
     }else{
-        alert('You are correct')
+        alert('You are correct');
     }
-        
+var name = "cat"; 

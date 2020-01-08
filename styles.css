@@ -1,5 +1,7 @@
 body{
-    background: gold;
+    background-image: url('https://colorado-springs.s3.amazonaws.com/CMS/5104/almagre_mountain_credit_matt_payne_photography_small__medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: dotted;
     border-color: black;
     border-width: 13 px;
@@ -9,8 +11,18 @@ body{
 h1{
     color: grey;
     font-family: cursive;
+    font-size: 75px;
+    padding: 0%;
+    margin: 0%;
 }
 
 h2{
     color: maroon;
 }
+
+p{
+    color: white;
+}
+ li{
+     color: gold;
+ }

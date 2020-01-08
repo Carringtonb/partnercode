@@ -1,10 +1,13 @@
 'use strict';
 
+var customerName = prompt('What is your name?');
+alert('Hello ' + customerName + ' nice to meet you! Welcome to my site.');
+
 var childhood = prompt('Did I grow up in Seattle?');
 if(childhood.toLowerCase() === 'yes'){
-  alert('No I did not');
+  alert('You are incorrect');
 }else{
-  alert('you are correct');
+  alert('You are correct');
 }
 //console.log(childhood);
 
@@ -40,5 +43,3 @@ if(employer.toUpperCase() === 'YES'){
 }
 //console.log(employer);
 
-var customerName = prompt('What is your name?');
-alert('Hello ' + customerName + ' nice to meet you! Welcome to my site.');

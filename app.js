@@ -39,3 +39,6 @@ if(employer.toUpperCase() === 'YES'){
   alert('You are incorrect');
 }
 //console.log(employer);
+
+var customerName = prompt('What is your name?');
+alert('Hello ' + customerName + ' nice to meet you! Welcome to my site.');

@@ -1,5 +1,9 @@
 body{
     background: gold;
+    border-style: dotted;
+    border-color: black;
+    border-width: 13 px;
+
 }
 
 h1{
